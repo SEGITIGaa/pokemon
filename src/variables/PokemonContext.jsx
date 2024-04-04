@@ -18,7 +18,7 @@ export const PokemonProvider = ({ children }) => {
   const removePokemon = (pokemonId) => {
     const updatedPokemon = savedPokemon.filter(pokemon => pokemon.id !== pokemonId);
     setSavedPokemon(updatedPokemon);
-    alert("Pokemon berhasil di hapus dihapus");
+    alert("Pokemon berhasil dihapus!");
   };
 
   return (

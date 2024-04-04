@@ -128,7 +128,7 @@ const Home = () => {
         loader={<h4>Loading...</h4>}
         endMessage={
           <p style={{ textAlign: "center" }}>
-            <b>No more items to load</b>
+            <b>semua pokemon sudah di muat</b>
           </p>
         }
         className="layout-grid w-full min-h-[700px]"
