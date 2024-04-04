@@ -17,4 +17,4 @@ import Filter from "./components/Filter";
 import Navbar from "./components/Navbar";
 import Modal from "./components/Modal";
 
-export {useEffect, useState, CardUnsave , Router,PokemonProvider, InfiniteScroll, Filter, Navbar, Modal, usePokemonContext, SavedPokemonList, Routes, createContext, useContext, Route, Link, useParams, axios, Home, ConfigAxios ,PokeCard, Search, Detail}
+export {useEffect, useState, CardUnsave , Router,PokemonProvider, InfiniteScroll, Filter, Navbar, Modal, usePokemonContext, SavedPokemonList, Routes, createContext, useContext, Route, Link, useParams, axios, Home, ConfigAxios ,PokeCard, Search}

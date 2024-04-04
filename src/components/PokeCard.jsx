@@ -69,7 +69,7 @@ const CardUnsave = ({ pokemonInfo, handleRemovePokemon }) => {
 
 
   return (
-    <div className="card w-max group h-max">
+    <div className="card group h-max">
       <div className="row-center-between w-full">
         <div className="flex flex-col items-start">
           <p className="pokemon-name">{pokemonInfo.alias}</p>

@@ -8,7 +8,7 @@ const Navbar = ({ searchTerm, handleSearchChange, searchPokemon, type, filterTyp
         <Filter type={type} setFilterType={setFilterType} filterType={filterType}/>
         <Link to={"/simpanan"} className="search-btn row-center gap-2 text-second">
           <img src="/Pokeball.svg" alt=""  className="w-6"/>
-          pokemon saya
+          simpanan
         </Link>
       </div>
     </nav>
