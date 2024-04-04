@@ -17,9 +17,9 @@ const PokeCard = ({ pokemonInfo, onSavePokemon }) => {
   }, [pokemonInfo]);
 
   return (
-    <div className="card group">
+    <div className="card group h-auto">
       <div className="row-center-between w-full">
-        <p className="pokemon-name">{pokemonInfo.name}</p>
+        <p className="pokemon-name w-2/3 break-words">{pokemonInfo.name}</p>
         <div onClick={handleSaveClick} className="pokemon-bookmark">
           <img src="/save.svg" alt="save-icon" className="w-5 h-5" />
         </div>
