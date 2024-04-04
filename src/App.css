@@ -87,6 +87,6 @@
     @apply font-semibold text-white text-sm flex items-center gap-2 w-full
   }
   .card { 
-    @apply flex flex-col items-center rounded-md w-full h-60 bg-no-repeat gap-3 transition-all duration-300 shadow-slate-100 justify-center relative bg-black bg-card-bg p-3 hover:bg-black hover:bg-right
+    @apply flex flex-col items-center rounded-md w-full h-60 bg-no-repeat gap-3 transition-all duration-300 shadow-slate-100 justify-center relative bg-main bg-card-bg p-3 hover:bg-black hover:bg-right
   }
 }
