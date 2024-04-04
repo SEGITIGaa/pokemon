@@ -54,7 +54,7 @@
     @apply text-second border-2 font-medium border-second px-3 py-2 rounded-lg bg-main cursor-pointer
   }
   .layout-grid {
-    @apply grid grid-cols-2 md:grid-cols-3 gap-1 md:w-2/4 w-5/6
+    @apply grid grid-cols-2 md:grid-cols-3 gap-1 md:w-2/4 w-full
   }
   .col-center {
     @apply flex flex-col items-center

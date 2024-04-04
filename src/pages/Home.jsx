@@ -109,7 +109,7 @@ const Home = () => {
  
 
   return (
-    <div className="col-center-center gap-5 min-h-screen w-full bg-main py-10 bg-section-bg bg-cover bg-no-repeat bg-fixed">
+    <div className="col-center-center gap-5 min-h-screen w-full px-5 md:px-0 bg-main py-10 bg-section-bg bg-cover bg-no-repeat bg-fixed">
       <Navbar
         searchTerm={searchTerm}
         handleSearchChange={handleSearchChange}
